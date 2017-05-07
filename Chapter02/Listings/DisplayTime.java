@@ -13,7 +13,7 @@ public class DisplayTime {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Prompt the user for input
+        // Read number of seconds from console
         System.out.print("Enter an integer for seconds: ");
         int seconds = input.nextInt();
 
