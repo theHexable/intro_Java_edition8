@@ -24,9 +24,11 @@ public class SubtactionQuizLoop {
             int number2 = (int) (Math.random() * 10);
 
             // 2. If number1 < number2, swap numbr1 with number2
-            int temp = number1;
-            number1 = number2;
-            number2 = temp;
+            if (number1 < number2) {
+                int temp = number1;
+                number1 = number2;
+                number2 = temp;
+            }
 
             // 3. prompt the stundent to answer "What is number1 - number2?"
             System.out.print("What is " + number1 + " - " + number2 + " ? ");
