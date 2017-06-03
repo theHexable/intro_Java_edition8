@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Exercise 3.24
  * @Title Game: picking a card
+ * @recommended: Yes ! good for new learners
  */
 public class Exercise3_24 {
 

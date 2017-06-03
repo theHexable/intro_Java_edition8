@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Exercise 3.27
  * @Title Geometry: points in triangle?
+ * @recommended: Yes ! very good for new learners
  */
 public class Exercise3_27 {
 

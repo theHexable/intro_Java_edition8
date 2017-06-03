@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Exercise 3.28
  * @Title Geometry: two rectangles
+ * @recommended: Yes ! very good for new learners
  */
 public class Exercise3_28 {
 

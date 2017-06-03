@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Exercise 3.15
  * @Title Game: Lottery
+ * @recommended: Yes ! good for new learners
  */
 public class Exercise3_15 {
 

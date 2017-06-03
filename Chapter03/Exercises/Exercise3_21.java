@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Exercise 3.20
  * @Title Science: day of th week
+ * @recommended: Yes ! good for new learners
  */
 public class Exercise3_21 {
 
