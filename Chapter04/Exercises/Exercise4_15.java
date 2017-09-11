@@ -22,11 +22,10 @@ public class Exercise4_15 {
         int n2 = input.nextInt();
 
         int min = n1 < n2 ? n1 : n2;
-        int number = min;
-        while (n1 % number != 0 || n2 % number != 0) {
-            number--;
+        while (n1 % min != 0 || n2 % min != 0) {
+            min--;
         }
         System.out.println("The greatest common divisor for " + n1
-                + " and " + n2 + " is " + number);
+                + " and " + n2 + " is " + min);
     }
 }
