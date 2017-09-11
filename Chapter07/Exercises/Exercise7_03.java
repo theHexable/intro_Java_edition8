@@ -6,7 +6,7 @@ package Chapter07.Exercises;
  * @Exercise 7.3
  * @Title Sorting students on grades
  */
-public class Exercise7_3 {
+public class Exercise7_03 {
 
     public static void main(String[] args) {
 

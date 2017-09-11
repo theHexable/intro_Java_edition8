@@ -1,13 +1,15 @@
-package Chapter07.Listings;
+package Chapter07.Exercises;
 
 import java.util.Scanner;
 
 /**
  *
  * @author Shady Bajary
- * @Listing 7.3
+ * @Exercise 7.8
+ * @Title All closest pairs of points
+ * @CopiedFrom: github.com/jsquared21/Intro-to-Java-Programming
  */
-public class Listing7_3_FindNearestPoints {
+public class Exercise7_08 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -16,22 +18,20 @@ public class Listing7_3_FindNearestPoints {
 
         // Create an array to store points
         double[][] points = new double[numberOfPoints][2];
-        System.out.println("Enter " + numberOfPoints + " points: ");
+        System.out.print("Enter " + numberOfPoints + " points: ");
         for (int i = 0; i < points.length; i++) {
-            System.out.print("Enter x of point " + i + ": ");
             points[i][0] = input.nextDouble();
-            System.out.print("Enter y of point " + i + ": ");
             points[i][1] = input.nextDouble();
         }
 
-        // p1 and p2 are the indices in the points array
-        int p1 = 0, p2 = 1; // initial two points
+        // p1 and p2 are the indices in the points' array
+        int p1 = 0, p2 = 1; // Initial two points
         double shortestDistance = distance(points[p1][0], points[p1][1],
-                points[p2][0], points[p2][1]); // Initialize shortestDistance
+                points[p2][0], points[p2][p1]); // Initialize shortest Distance
 
         // Compute distance for every two points
         for (int i = 0; i < points.length; i++) {
-            for (int j = i+1; j < points.length; j++) {
+            for (int j = i + 1; j < points.length; j++) {
                 double distance = distance(points[i][0], points[i][1],
                         points[j][0], points[j][1]); // Find distance
 
@@ -44,21 +44,24 @@ public class Listing7_3_FindNearestPoints {
         }
 
         // Display result
-        System.out.println("The closest two points are " + "("
-                + points[p1][0] + ", " + points[p1][1] + ") and ("
-                + points[p2][0] + ", " + points[p2][1] + ")");
+        for (int i = 0; i < points.length; i++) {
+            for (int j = 0; j < points.length; j++) {
+                if (distance(points[i][0], points[i][1],
+                        points[j][0], points[j][1]) == shortestDistance) {
+                    System.out.println("The closest two points are "
+                            + "(" + points[i][0] + ", " + points[i][1] + ") and ("
+                            + points[j][0] + ", " + points[j][1] + ")");
+                }
+            }
+        }
+        System.out.println("Ther distance is " + shortestDistance);
     }
 
     /**
      * Compute the distance between two points (x1, y1) and (x2, y2)
-     *
-     * @param x1 x coordinate of the first point
-     * @param y1 y coordinate of the first point
-     * @param x2 x coordinate of the second point
-     * @param y2 y coordinate of the second point
-     * @return
      */
-    public static double distance(double x1, double y1, double x2, double y2) {
+    public static double distance(
+            double x1, double y1, double x2, double y2) {
         return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
     }
 }

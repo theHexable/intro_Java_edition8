@@ -5,7 +5,7 @@ package Chapter07.Listings;
  * @author Shady Bajary
  * @Listing 7.2
  */
-public class Listing7_2_GradeExam {
+public class GradeExam {
 
     public static void main(String[] args) {
 

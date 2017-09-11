@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 7.5
  * @Title Algebra: adding two matrices
  */
-public class Exercise7_5 {
+public class Exercise7_05 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

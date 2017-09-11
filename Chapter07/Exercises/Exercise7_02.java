@@ -5,10 +5,10 @@ import java.util.Scanner;
 /**
  *
  * @author Shady Bajary
- * @Exercise 7.1
- * @Title Summing all the numbers in a matrix
+ * @Exercise 7.2
+ * @Title Summing the major diagonal in a matrix
  */
-public class Exercise7_1 {
+public class Exercise7_02 {
 
     public static void main(String[] args) {
         // Create Scanner
@@ -20,14 +20,16 @@ public class Exercise7_1 {
                 m[i][j] = scan.nextInt();
             }
         }
-        System.out.println("Sum of the matrix is " + sumMatrix(m));
+        System.out.println("Sum of the matrix is " + sumMajorDiagonal(m));
     }
 
-    public static double sumMatrix(int[][] m) {
+    public static int sumMajorDiagonal(int[][] m) {
         int sum = 0;
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m[i].length; j++) {
-                sum += m[i][j];
+                if (i == j) {
+                    sum += m[i][j];
+                }
             }
         }
         return sum;

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Listing 7.4
  */
-public class Listing7_4_CheckSudokuSolution {
+public class CheckSudokuSolution {
 
     public static void main(String[] args) {
         // Read a Sudoku solution

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Listing 7.5
  */
-public class Listing7_5_Weather {
+public class Weather {
 
     public static void main(String[] args) {
         final int NUMBER_OF_DAYS = 10;

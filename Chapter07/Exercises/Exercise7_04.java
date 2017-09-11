@@ -6,7 +6,7 @@ package Chapter07.Exercises;
  * @Exercise 7.4
  * @Title Computing the weekly hours for each employee
  */
-public class Exercise7_4 {
+public class Exercise7_04 {
 
     public static void main(String[] args) {
         double[][] matrix

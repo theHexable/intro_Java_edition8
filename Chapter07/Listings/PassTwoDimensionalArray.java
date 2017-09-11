@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Listing 7.1
  */
-public class Listing7_1_PassTwoDimensionalArray {
+public class PassTwoDimensionalArray {
 
     public static void main(String[] args) {
         // Create Scanner

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Listing 7.6
  */
-public class Listing7_6_GuessBirthdayUsingArray {
+public class GuessBirthdayUsingArray {
 
     public static void main(String[] args) {
         int day = 0; // Day to be determined
