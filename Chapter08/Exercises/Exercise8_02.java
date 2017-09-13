@@ -6,7 +6,7 @@ package Chapter08.Exercises;
  * @Exercise 8.2
  * @Title The Stock class
  */
-public class Exercise8_2 {
+public class Exercise8_02 {
 
     public static void main(String[] args) {
         Stock stock = new Stock("JAVA", "Sun Microsystems Inc.");

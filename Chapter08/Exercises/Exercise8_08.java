@@ -6,7 +6,7 @@ package Chapter08.Exercises;
  * @Exercise 8.8
  * @Title The Fan class
  */
-public class Exercise8_8 {
+public class Exercise8_08 {
 
     public static void main(String[] args) {
         Fan fan1 = new Fan();

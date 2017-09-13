@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Exercise 8.11
  * @Title Algebra: 2 * 2 linear equations
+ * @CopiedFrom: https://github.com/jsquared21/Intro-to-Java-Programming
  */
 public class Exercise8_11 {
 

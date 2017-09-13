@@ -8,7 +8,7 @@ import java.util.Date;
  * @Exercise 8.3
  * @Title Using the Date class
  */
-public class Exercise8_3 {
+public class Exercise8_03 {
 
     public static void main(String[] args) {
         Date date1 = new Date(10000);

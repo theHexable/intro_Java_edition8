@@ -6,7 +6,7 @@ package Chapter08.Exercises;
  * @Exercise 8.1
  * @Title The Rectangle class
  */
-public class Exercise8_1 {
+public class Exercise8_01 {
 
     public static void main(String[] args) {
         Rectangle r1 = new Rectangle(4, 40);

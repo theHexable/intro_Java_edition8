@@ -8,7 +8,7 @@ import java.util.Date;
  * @Exercise
  * @Title
  */
-public class Exercise8_7 {
+public class Exercise8_07 {
 
     public static void main(String[] args) {
         Account account = new Account(1122, 20000, 4.5);

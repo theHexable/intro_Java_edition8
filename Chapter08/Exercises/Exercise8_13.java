@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Shady Bajary
  * @Exercise 8.13
  * @Title The Location class
+ * @CopiedFrom: https://github.com/jsquared21/Intro-to-Java-Programming
  */
 public class Exercise8_13 {
 

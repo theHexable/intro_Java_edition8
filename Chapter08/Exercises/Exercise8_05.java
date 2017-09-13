@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
  * @Exercise 8.5
  * @Title Using the GregorianCalender class
  */
-public class Exercise8_5 {
+public class Exercise8_05 {
 
     public static void main(String[] args) {
         GregorianCalendar calendar = new GregorianCalendar();

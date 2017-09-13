@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  * @Exercise 8.6
  * @Title Displaying Calendars
  */
-public class Exercise8_6 {
+public class Exercise8_06 {
 
     static String output = "";
 

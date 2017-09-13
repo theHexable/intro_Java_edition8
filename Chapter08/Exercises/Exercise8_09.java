@@ -6,7 +6,7 @@ package Chapter08.Exercises;
  * @Exercise 8.9
  * @Title Geometry: n-sided regular polygon
  */
-public class Exercise8_9 {
+public class Exercise8_09 {
 
     /**
      * Main method
