@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.2
  * @Title Checking subString
  */
-public class Exercise9_2 {
+public class Exercise9_02 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
