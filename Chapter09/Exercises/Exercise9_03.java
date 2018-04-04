@@ -9,7 +9,7 @@ import sun.security.util.Password;
  * @Exercise 9.3
  * @Title Checking Password
  */
-public class Exercise9_3 {
+public class Exercise9_03 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

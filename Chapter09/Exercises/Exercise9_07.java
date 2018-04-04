@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.7
  * @Title Phone Keypads
  */
-public class Exercise9_7 {
+public class Exercise9_07 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
