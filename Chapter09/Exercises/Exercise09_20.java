@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @Exercise 9.20
  * @Title Replacing Text
  */
-public class Exercise9_20 {
+public class Exercise09_20 {
 
     public static void main(String[] args) throws FileNotFoundException {
         // Check command-line parameter usage

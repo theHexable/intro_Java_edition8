@@ -13,9 +13,9 @@ import javax.swing.JPanel;
  * @Exercise 15.3
  * @Title Displaying a checkerboard
  */
-public class Exercise15_3 extends JFrame {
+public class Exercise15_03 extends JFrame {
 
-    public Exercise15_3() {
+    public Exercise15_03() {
         setLayout(new GridLayout(8, 8));
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
@@ -37,7 +37,7 @@ public class Exercise15_3 extends JFrame {
     }
 
     public static void main(String[] args) {
-        Exercise15_3 frame = new Exercise15_3();
+        Exercise15_03 frame = new Exercise15_03();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 400);
         frame.setLocationRelativeTo(null);

@@ -6,7 +6,7 @@ package Chapter09.Exercises;
  * @Exercise 9.17
  * @Title Counting characters, words, and lines in a file
  */
-public class Exercise9_17 {
+public class Exercise09_17 {
 
     static int counter = 0;
     static int wordsCounter = 0;

@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.9
  * @Title binary to hex
  */
-public class Exercise9_09 {
+public class Exercise09_09 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

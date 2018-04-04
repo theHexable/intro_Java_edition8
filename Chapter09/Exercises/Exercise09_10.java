@@ -6,7 +6,7 @@ package Chapter09.Exercises;
  * @Exercise 9.10
  * @Title Decimal to Binary
  */
-public class Exercise9_10 {
+public class Exercise09_10 {
 
     public static void main(String[] args) {
 

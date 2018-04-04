@@ -11,7 +11,7 @@ import javax.swing.JFrame;
  * @Exercise 15.2
  * @Title Creating custom button class
  */
-public class Exercise15_2 {
+public class Exercise15_02 {
 
     public static void main(String[] args) {
         // Create the frame

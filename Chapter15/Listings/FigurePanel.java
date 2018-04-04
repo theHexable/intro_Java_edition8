@@ -3,6 +3,7 @@ package Chapter15.Listings;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.Polygon;
 import javax.swing.JPanel;
 
 /**
@@ -17,6 +18,8 @@ public class FigurePanel extends JPanel {
     public static final int RECTANGLE = 2;
     public static final int ROUND_RECTANGLE = 3;
     public static final int OVAL = 4;
+    public static final int ARC = 5;
+    public static final int POLYGON = 6;
 
     private int type = 1;
     private boolean filled = false;
@@ -87,6 +90,55 @@ public class FigurePanel extends JPanel {
                     g.drawOval((int) (0.1 * width), (int) (0.1 * height),
                             (int) (0.8 * width), (int) (0.8 * height));
                 }
+                break;
+            case ARC: // Display an arac
+                int xCenter = getSize().width / 2;
+                int yCenter = getSize().height / 2;
+                int radius
+                        = (int) (Math.min(getSize().width, getSize().height) * 0.4);
+
+                int x = xCenter - radius;
+                int y = yCenter - radius;
+
+                if (filled) {
+                    g.fillArc(x, y, 2 * radius, 2 * radius, 0, 30);
+                    g.fillArc(x, y, 2 * radius, 2 * radius, 90, 30);
+                    g.fillArc(x, y, 2 * radius, 2 * radius, 180, 30);
+                    g.fillArc(x, y, 2 * radius, 2 * radius, 270, 30);
+
+                } else {
+                    g.drawArc(x, y, 2 * radius, 2 * radius, 0, 30);
+                    g.drawArc(x, y, 2 * radius, 2 * radius, 90, 30);
+                    g.drawArc(x, y, 2 * radius, 2 * radius, 180, 30);
+                    g.drawArc(x, y, 2 * radius, 2 * radius, 270, 30);
+                }
+                break;
+            case POLYGON:
+                xCenter = getSize().width / 2;
+                yCenter = getSize().height / 2;
+                radius = (int) (Math.min(getSize().width, getSize().height) * 0.4);
+
+                // Create a Polygon object
+                Polygon polygon = new Polygon();
+
+                // Add points to the polygon
+                polygon.addPoint(xCenter + radius, yCenter);
+                polygon.addPoint((int) (xCenter + radius * Math.cos(2 * Math.PI / 6)),
+                        (int) (yCenter - radius * Math.sin(2 * Math.PI / 6)));
+                polygon.addPoint((int) (xCenter + radius * Math.cos(2 * 2 * Math.PI / 6)),
+                        (int) (yCenter - radius * Math.sin(2 * 2 * Math.PI / 6)));
+                polygon.addPoint((int) (xCenter + radius * Math.cos(3 * 2 * Math.PI / 6)),
+                        (int) (yCenter - radius * Math.sin(3 * 2 * Math.PI / 6)));
+                polygon.addPoint((int) (xCenter + radius * Math.cos(4 * 2 * Math.PI / 6)),
+                        (int) (yCenter - radius * Math.sin(4 * 2 * Math.PI / 6)));
+                polygon.addPoint((int) (xCenter + radius * Math.cos(5 * 2 * Math.PI / 6)),
+                        (int) (yCenter - radius * Math.sin(5 * 2 * Math.PI / 6)));
+
+                if (filled) {// Draw the polygon
+                    g.fillPolygon(polygon);
+                } else {
+                    g.drawPolygon(polygon);
+                }
         }
     }
 
@@ -123,6 +175,7 @@ public class FigurePanel extends JPanel {
     /**
      * Specify the preferred size
      */
+    @Override
     public Dimension getPreferredSize() {
         return new Dimension(80, 80);
     }

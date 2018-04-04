@@ -11,7 +11,7 @@ import javax.swing.JPanel;
  * @Exercise 15.1
  * @Title Displaying 3*3 grid
  */
-public class Exercise15_1 {
+public class Exercise15_01 {
 
     public static void main(String[] args) {
         Grid grid = new Grid();

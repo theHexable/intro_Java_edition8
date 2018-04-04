@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @Exercise 9.12
  * @Title Anagrams
  */
-public class Exercise9_12 {
+public class Exercise09_12 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

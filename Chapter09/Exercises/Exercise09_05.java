@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.5
  * @Title Occurrences of each digit in a string
  */
-public class Exercise9_05 {
+public class Exercise09_05 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

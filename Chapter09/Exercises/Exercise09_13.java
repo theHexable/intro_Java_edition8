@@ -6,7 +6,7 @@ package Chapter09.Exercises;
  * @Exercise 9.13
  * @Title Passing a string to check palindromes
  */
-public class Exercise9_13 {
+public class Exercise09_13 {
 
     public static void main(String[] args) {
 

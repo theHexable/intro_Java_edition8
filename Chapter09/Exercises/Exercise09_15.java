@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.15
  * @Title Finding number of upper case letters
  */
-public class Exercise9_15 {
+public class Exercise09_15 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

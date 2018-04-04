@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.1
  * @Title Checking SSN
  */
-public class Exercise9_01 {
+public class Exercise09_01 {
 
     public static void main(String[] args) {
         // Create Scanner

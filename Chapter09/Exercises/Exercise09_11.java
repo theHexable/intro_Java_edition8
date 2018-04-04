@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.11
  * @Title Sorting characters in a string
  */
-public class Exercise9_11 {
+public class Exercise09_11 {
 
     static int l;
 

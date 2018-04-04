@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.8
  * @Title Binary to Decimal
  */
-public class Exercise9_08 {
+public class Exercise09_08 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

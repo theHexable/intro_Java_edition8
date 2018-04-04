@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @Exercise 9.16
  * @Title reformatting java source code
  */
-public class Exercise9_16 {
+public class Exercise09_16 {
 
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length != 1) {

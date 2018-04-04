@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.6
  * @Title Counting the letters in a string
  */
-public class Exercise9_06 {
+public class Exercise09_06 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

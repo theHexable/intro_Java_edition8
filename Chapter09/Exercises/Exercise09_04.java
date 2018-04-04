@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Exercise 9.4
  * @Title Occurrences of a specified character
  */
-public class Exercise9_04 {
+public class Exercise09_04 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

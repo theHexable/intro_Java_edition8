@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @Exercise Writing\Reading data
  * @Title
  */
-public class Exercise9_19 {
+public class Exercise09_19 {
 
     public static void main(String[] args) throws IOException {
         File file = new File("Exercise9_19.txt");
